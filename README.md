@@ -12,7 +12,7 @@ API HOST 為 https://react-widget-api.vercel.app/。
 
 `GET /api/v1/images`
 
-```json
+```
 curl -i https://react-widget.vercel.app/api/v1/images
 HTTP/1.1 200 OK
 [
@@ -27,7 +27,7 @@ HTTP/1.1 200 OK
 
 `GET /api/v1/images/[id]`
 
-```json
+```
 curl -i https://react-widget.vercel.app/api/v1/images/image1
 HTTP/1.1 200 OK
 {
@@ -42,7 +42,7 @@ HTTP/1.1 200 OK
 
 `GET /api/v1/videos`
 
-```json
+```
 curl -i https://react-widget-api.vercel.app/api/v1/videos
 HTTP/1.1 200 OK
 [
@@ -57,7 +57,7 @@ HTTP/1.1 200 OK
 
 `GET /api/v1/videos/[id]`
 
-```json
+```
 curl -i https://react-widget-api.vercel.app/api/v1/videos/video1
 HTTP/1.1 200 OK
 {
